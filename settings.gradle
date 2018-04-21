@@ -1,1 +1,1 @@
-include ':app', ':OrmCompat'
+include ':app', ':ormcompat'
