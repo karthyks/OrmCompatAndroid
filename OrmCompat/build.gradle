@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'karthyks'
+    bintrayName = 'OrmCompat'
+
+    publishedGroupId = 'com.github.karthyks'
+    libraryName = 'OrmCompat'
+    artifact = 'orm-compat'
+
+    libraryDescription = 'A library to abstract classes of Sqlite storage implementation in Android'
+
+    siteUrl = 'https://github.com/karthyks/OrmCompatAndroid'
+    gitUrl = 'https://github.com/karthyks/OrmCompatAndroid.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'karthik-logs'
+    developerName = 'Karthik Periasami'
+    developerEmail = 'mail2karthyk@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 27
 
@@ -30,3 +54,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
