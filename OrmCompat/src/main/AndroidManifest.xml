@@ -1,0 +1,15 @@
+<manifest package="com.github.karthyks.ormcompat"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <provider
+            android:name=".provider.OrmCompatProvider"
+            android:authorities="${applicationId}.local.store"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

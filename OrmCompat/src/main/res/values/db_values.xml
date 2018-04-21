@@ -1,0 +1,4 @@
+<resources>
+    <string name="database_name">sampledb</string>
+    <integer name="database_version">1</integer>
+</resources>
