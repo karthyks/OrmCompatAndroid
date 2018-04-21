@@ -41,7 +41,7 @@ The following is the callback from the database crud operations.
 
 # Apache 2.0 Licence
 ```
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Karthik Periasami]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
